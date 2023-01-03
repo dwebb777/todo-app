@@ -1,0 +1,18 @@
+{
+  "name": "todo-app",
+  "version": "1.0.0",
+  "description": "a fullstact to do app",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js"
+  },
+  "dependencies": {
+    "ejs": "^3.1.2",
+    "express": "^4.17.1",
+    "lodash": "^4.17.15",
+    "mongoose": "^6.7.0",
+    "morgan": "^1.10.0",
+    "nodemon": "^2.0.20"
+  }
+}
